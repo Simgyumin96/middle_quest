@@ -1,0 +1,45 @@
+@-webkit-keyframes gyumin {
+	0%{
+		padding-left: 150px;
+	}
+
+	50%{
+		padding-left: 0px;
+	}
+
+	100%{
+		padding-left: 150px;
+	}
+
+}
+
+@-webkit-keyframes gyumint {
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 100;
+	}
+
+}
+
+
+.box {
+	background-color: green;
+	animation-name: gyumin;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+
+}
+
+.box2 {
+	background-color: green;
+	animation-name: gyumint;
+	transition-duration: 2s;
+	transition-delay: 8s;
+	animation-duration: 2s;
+	animation-delay: 8s;
+}
